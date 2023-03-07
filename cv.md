@@ -32,3 +32,6 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 ## Experience
 Will be added later...
 
+## Education
+* 2014 - 2019.  Belarusian National Technical University, Information Technologies and Robotics Faculty, Automation of Technological Processes and Production specialty)
+* 2023 - now. RS Schools Course «JavaScript/Front-end. Stage 1»
