@@ -18,3 +18,13 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 * Javascript (Basic)
 * Git, GitHub
 * Figma (for web development)     
+
+## Code example
+`function combine(...arg) {
+  return arg.reduce((sum, obj) => {
+    for (let key in obj) {
+      sum[key] = (key in sum) ? (sum[key] + obj[key]) : obj[key]
+    }
+    return sum
+  }, {})
+}`
