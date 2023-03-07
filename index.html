@@ -63,13 +63,13 @@
                 <h2 class="section-title">Code example</h2>
                 <pre class="pre">
                     <code>
-function combine(...arg) {  
-    return arg.reduce((sum, obj) =&gt; {  
-        for (let key in obj) {  
-            sum[key] = (key in sum) ? (sum[key] + obj[key]) : obj[key]  
-        }  
-        return sum  
-    }, {})  
+function combine(...arg) {
+    return arg.reduce((sum, obj) =&gt; {
+        for (let key in obj) {
+            sum[key] = (key in sum) ? (sum[key] + obj[key]) : obj[key]
+        }
+        return sum
+    }, {})
 }
                     </code>
                 </pre>
